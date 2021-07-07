@@ -1,0 +1,222 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+      /* ......this is the heading section....... */
+header {
+    display: flex;
+}
+
+.heading-text h1 {
+    font-size: 60px;
+    color: #575757;
+    display: inline-block;
+    line-height: 0;
+}
+
+.heading-text {
+    width: 50%;
+    margin: 150px 0px 0px 100px;
+}
+.color {
+   color: #fb8e48;
+}
+.gradient-btn a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-image: linear-gradient(45deg, #fb954b, #fe4b2f);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 2px 2px 25px #fb954b;
+}
+
+.heading-text p {
+    color: #9c9c9c;
+    padding: 20px 0px 50px 0px;
+}
+.top-img {
+    width: 50%;
+}
+/* .............this is the about section......... */
+
+section.about {
+    display: flex;
+    background-image: url("images/bg.png");
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 80%;
+    margin: 90px 0px 0px 90px;
+}
+.about-text {
+    width: 50%;
+    margin: 100px 130px 85px 100px;
+}
+
+.about-text h1 {
+    font-size: 54px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-weight: bold;
+    color: #707070;
+    margin-bottom: 60px;
+}
+.hrColorLine {
+    height: 3px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 50%;
+}
+/* ......this is the Recipies Sectin....... */
+
+.section-text {
+    width: 566px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-text h1 {
+    color: #707070;
+    font-size: 55px;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    margin: 50px 0px;
+}
+.cards {
+    width: 25%;
+    margin-left: 5%;
+    box-shadow: 4px 4px 15px rgb(0 0 0 / 30%);
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+}
+
+.cards img {
+    width: 90%;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+/* ...........this is the chef section............ */
+
+.chef-img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.chef-img img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.chef-img img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.chef-container {
+    display: flex;
+}
+
+section.Chefs {
+    background-image: url('images/bdfood.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+.about-chef h3 {
+    text-align: center;
+}
+.chef-text {
+    text-align: center;
+    color: white;
+    padding: 20px 0px 55px 0px;
+}
+
+.chef-text h1 {
+    font-size: 60px;
+    display: inline-block;
+    margin: 0px;
+}
+.chef-text p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.chef-btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #fe5f37;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+/* .............. this is the achivement section........... */
+.achivemnets {
+    width: 80%;
+    margin: 100px auto;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.3);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.medias {
+    width: 200px;
+    float: left;
+    padding: 20px 0px 40px 140px;
+}
+
+.medias h1 {
+    font-size: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+/* ............this is the contact section............ */
+.form-area {
+    width: 350px;
+    margin: 0px 0px 50px 150px;
+    padding: 45px 55px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.3);
+}
+
+.form-area input {
+    padding: 8px 80px 8px 10px;
+    outline: none;
+}
+.form-area button {
+    background-color: #fe5f37;
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.contact-img {
+    width: 600px;
+    margin-left: 50px;
+}
+/* ...........This is the footer section.............. */
+footer {
+    background-color: #0b0d17;
+    color: white;
+    text-align: center;
+}
+.footer-content {
+    padding: 20px 0px;
+}
